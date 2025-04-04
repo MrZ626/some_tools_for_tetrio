@@ -4,7 +4,7 @@
 
 SFX: https://tetr.io/sfx/tetrio.opus.rsd
 
-Game loads resources with these links, so you can get them directly by this too :)
+Game loads resources by links, so you can get them directly in same way :)
 
 ## RSD Extractor
 
