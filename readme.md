@@ -2,7 +2,8 @@
 
 ## Game Resources
 
-SFX: https://tetr.io/sfx/tetrio.opus.rsd
+SFX: https://tetr.io/sfx/tetrio.opus.rsd  
+Images: https://tetr.io/res/avatar.png (can only be accessed if you know their full paths)
 
 Game loads resources by links, so you can get them directly in same way :)
 
