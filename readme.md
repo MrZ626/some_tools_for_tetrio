@@ -9,6 +9,8 @@ Game loads resources by links, so you can get them directly in same way :)
 
 ## RSD Extractor
 
+[Official Documentation](https://github.com/tetrio/tetrio-format-specs/blob/master/RSD.md)
+
 Tools needed:
 
 - Lua (5.3+) <!-- or Love2D -->
