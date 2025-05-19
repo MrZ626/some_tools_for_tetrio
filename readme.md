@@ -20,3 +20,11 @@ How to use:
 
 1. Download `tetrio.opus.rsd` file from the links above and put it aside the `rsd_extractor.lua`
 2. run `lua rsd_extractor.lua` to parse & extract the RSD file
+
+## Version Tracker
+
+> This is a .sh script, need Bash to run
+
+**Manual Mode** - Just double click it from time to time and check the output (files)
+
+**Server Mode** - Run `version_tracker.sh --server` in the background
