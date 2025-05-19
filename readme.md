@@ -23,8 +23,10 @@ How to use:
 
 ## Version Tracker
 
-> This is a .sh script, need Bash to run
+> .sh script, need Bash to run
 
-**Manual Mode** - Just double click it from time to time and check the output (files)
+This script will track the version of `tetrio.js` file and create backup for each version.
+
+**Manual Mode** - Just run it from time to time and see the output (files)
 
 **Server Mode** - Run `version_tracker.sh --server` in the background
