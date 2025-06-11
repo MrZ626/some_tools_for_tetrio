@@ -17,6 +17,8 @@ while true; do
         if [ "$hash" != "$last_hash" ]; then
             echo "$hash" > "$HASH_FILE"
             echo "Updated $(date)" >> "$LOG_FILE"
+            mkdir -p backup_versions
+            echo "$file" > "backup_versions/tetrio$date.js"
             sleepTime=600
 
             echo "GAME UPDATED!!!"

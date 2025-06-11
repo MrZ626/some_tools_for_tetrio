@@ -1,3 +1,5 @@
 *.rsd
 *.ogg
-tetrio_sfx_unpack.bat
+tetrio_change.log
+tetrio_hash
+backup_versions/*
