@@ -1,7 +1,27 @@
 local head = "https://tetr.io/res/"
 
 local list = {
+    -- Find more and paste them here
     "avatar.png",
+    "league-ranks/a-.png",
+    "league-ranks/a.png",
+    "league-ranks/a+.png",
+    "league-ranks/b-.png",
+    "league-ranks/b.png",
+    "league-ranks/b+.png",
+    "league-ranks/c-.png",
+    "league-ranks/c.png",
+    "league-ranks/c+.png",
+    "league-ranks/d.png",
+    "league-ranks/d+.png",
+    "league-ranks/s-.png",
+    "league-ranks/s.png",
+    "league-ranks/s+.png",
+    "league-ranks/ss.png",
+    "league-ranks/u.png",
+    "league-ranks/x.png",
+    "league-ranks/x+.png",
+    "league-ranks/z.png",
     "supporter-tag.png",
     "verified-admin.png",
     "verified-halfmod.png",
