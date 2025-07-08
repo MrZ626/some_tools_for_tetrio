@@ -19,6 +19,14 @@ Images: https://tetr.io/res/avatar.png (can only be accessed if you know their f
 1. Download `tetrio.opus.rsd` file from the links above and put it aside the `rsd_extractor.lua`
 2. run `lua rsd_extractor.lua` to parse & extract the RSD file
 
+## Resource Fetcher
+
+> .lua script, need Lua to run
+> curl is needed to download resources
+
+1. Find resource paths yourself and paste them into the `list` variable at beginning
+2. Run `lua fetch_res.lua` to fetch resources
+
 ## Version Tracker
 
 > .sh script, need Bash to run
