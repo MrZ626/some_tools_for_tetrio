@@ -2,12 +2,21 @@
 
 ## Game Resources
 
-js file: https://tetr.io/js/tetrio.js  
-css file: https://tetr.io/css/tetrio.css  
-SFX: https://tetr.io/sfx/tetrio.opus.rsd  
-Images: https://tetr.io/res/avatar.png (can only be accessed if you know their full paths)
+Game itself loads resources from these links:
 
-(Game loads resources just from these links)
+```shell
+# js file
+curl -o tetrio.js https://tetr.io/js/tetrio.js
+
+# css file
+curl -o tetrio.css https://tetr.io/css/tetrio.css
+
+# sfx pack
+curl -o tetrio.opus.rsd https://tetr.io/sfx/tetrio.opus.rsd
+
+# image(s)
+curl -o ???.png https://tetr.io/res/FIND/PATHS/YOURSELF
+```
 
 ## RSD Extractor
 
