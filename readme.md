@@ -51,7 +51,8 @@ This script will track the version of `tetrio.js` file and create backup for eac
 > .lua script, need Lua to run
 
 1. Get 2 versions of **formatted** `tetrio.js` files and put them aside the `diff_line_length.lua`
-2. run `lua diff_line_length.lua file1 file2 start_pos1(1) start_pos2(1) rows(inf)`
+2. run `lua diff_line_length.lua file1 file2` to get approximate result (stop automatically with stop sequence `.init(),`)
+3. run `lua diff_line_length.lua file1 file2 start_offset1(0) start_offset2(0) line_count(inf)` to parse any area you want
 
 ## Anti-variable-name-confusion
 
@@ -60,4 +61,4 @@ This script will track the version of `tetrio.js` file and create backup for eac
 1. Get 2 versions of **formatted** `tetrio.js` files and put them aside the `anti_variable_name_confusion.lua`
 2. Run `lua anti-confusion.lua file1 temp1`
 3. Run `lua anti-confusion.lua file2 temp2`
-4. Compare the `temp1` and `temp2`, then back to the formatted file to read the changes
+4. Compare the `temp1` and `temp2` (should be faster than before), then go back to the pre-anti-confusion file to read the changes
