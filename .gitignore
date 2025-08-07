@@ -1,5 +1,7 @@
 *.rsd
 *.ogg
-tetrio_change.log
-tetrio_hash
-backup_versions/*
+/tetrio_change.log
+/tetrio_hash
+/backup_versions/*
+/out1.txt
+/out2.txt
