@@ -61,4 +61,4 @@ This script will track the version of `tetrio.js` file and create backup for eac
 1. Get 2 versions of **formatted** `tetrio.js` files and put them aside the `anti_variable_name_confusion.lua`
 2. Run `lua anti-confusion.lua file1 temp1`
 3. Run `lua anti-confusion.lua file2 temp2`
-4. Compare the `temp1` and `temp2` (should be faster than before), then go back to the pre-anti-confusion file to read the changes
+4. Compare the `temp1` and `temp2` with tools like `diff` (and it should be also faster than before?), then go back to the pre-anti-confusion file to read the changes
